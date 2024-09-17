@@ -15,7 +15,7 @@ body{
 
 .shell_main{
     width: 89%;
-    margin: 18% auto 0px auto;
+    margin: 18% auto 4rem auto;
 }
  
 ul{
@@ -97,6 +97,31 @@ button{
 }
 
 li{
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     color: rgba(255, 255, 255, 0.627); 
+}
+
+@media (min-width: 600px) {
+    .shell_main{
+        width: 70%;
+    }
+
+    .split_column{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .one{
+        padding: 2rem;
+    }
+
+    .two{
+        padding: 2rem;
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    .three{
+        padding: 2rem;
+        border-radius: 0px 0px 10px 0px;
+    }
 }
