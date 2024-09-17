@@ -1,0 +1,102 @@
+:root{
+    --fw-400: 400;
+    --fw-700: 700;
+
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --light_gray: hsl(204, 43%, 93%);
+    --grayish_blue: hsl(218, 22%, 67%);
+}
+ 
+body{
+    background-color: var(--light_gray);
+    font-family: karla, sans-serif;
+}
+
+.shell_main{
+    width: 89%;
+    margin: 18% auto 0px auto;
+}
+ 
+ul{
+    list-style-type: none;
+}
+
+h1{
+    color: var(--cyan);
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+    font-size: 1.3rem;
+    font-weight: var(--fw-700);
+}
+
+.guarantee{
+    font-weight: var(--fw-700);
+    color: var(--yellow);
+    margin-bottom: 1rem;
+}
+
+.description{
+    line-height: 1.5rem;
+    font-size: .9rem;
+}
+
+.one{
+    padding: 1.5rem;
+    background-color: white;
+    color: var(--grayish_blue);
+    border-radius: 10px 10px 0px 0px;
+}
+
+h2{
+    font-size: 1.1rem;
+    font-weight: var(--fw-700);
+    color: var(--light_gray);
+    margin-bottom: .9rem;
+}
+
+.pricing{
+    margin-bottom: .6rem;
+    font-weight: var(--fw-700);
+    font-size: 2rem;
+    color: var(--light_gray);
+}
+
+.price_details{
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.627);
+    font-weight: var(--fw-400);
+    vertical-align: .4rem;
+}
+
+.breakdown{
+    margin-bottom: 1.5rem;
+}
+
+button{
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    background-color: var(--yellow);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 10px 20px -15px black;
+}
+
+.two{
+    padding: 1.5rem;
+    background-color: var(--cyan);
+    color: var(--light_gray);
+}
+
+.three{
+    padding: 1.5rem;
+    color: var(--light_gray);
+    background-color: hsl(179, 47%, 55%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+li{
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.627); 
+}
