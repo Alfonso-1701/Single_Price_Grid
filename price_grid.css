@@ -15,6 +15,7 @@ body{
 
 .shell_main{
     width: 89%;
+    max-width: 36.4rem;
     margin: 18% auto 4rem auto;
 }
  
@@ -71,6 +72,7 @@ h2{
 
 .breakdown{
     margin-bottom: 1.5rem;
+    font-size: .9rem;
 }
 
 button{
@@ -98,12 +100,14 @@ button{
 
 li{
     line-height: 1.3rem;
+    font-size: .9rem;
     color: rgba(255, 255, 255, 0.627); 
 }
 
 @media (min-width: 600px) {
     .shell_main{
         width: 70%;
+        margin-top: 200px;
     }
 
     .split_column{
