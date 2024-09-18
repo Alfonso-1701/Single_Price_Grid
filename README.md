@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Alfonso-1701/Single_Price_Grid](https://github.com/Alfonso-1701/Single_Price_Grid)
+- Live Site URL: [https://venerable-entremet-9628b0.netlify.app](https://venerable-entremet-9628b0.netlify.app)
 
 ## My process
 
